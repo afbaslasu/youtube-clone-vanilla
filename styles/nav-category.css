@@ -1,0 +1,19 @@
+.top-category-container{
+  display: flex;
+  margin-bottom: 30px;
+  font-family: Roboto, Arial;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(60, 60, 60);
+}
+.top-category-nav{
+  background-color: rgb(236, 236, 236);
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-right: 8px;
+  text-wrap: nowrap;
+}
+.all{
+  background-color: black;
+  color: white;
+}
