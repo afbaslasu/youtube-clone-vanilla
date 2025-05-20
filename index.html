@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/nav-category.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="youtube-header-nav-icons/menu-icon.svg" alt="youtube hamburger menu">
+        <img class="youtube-logo" src="youtube-header-nav-icons/youtube-logo.svg" alt="youtube logo">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="youtube-header-nav-icons/search-icon.svg" alt="search button">
+          <!-- if the search icon is not well sized, give this img a class of "search-icon" height: 24px, margin-top: 4px-->
+        </button>
+        <button class="voice-search-button">
+          <img src="youtube-header-nav-icons/mic-voice-icon.svg" alt="microphone voice button">
+          <!-- if not well sized give this voice icon img a class of "voice-search-icon" height: 24px, margin-top: 4px-->
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="rs-left">
+          <img class="create-icon" src="youtube-header-nav-icons/plus-create-icon.svg" alt="create button">
+          <p class="create-text">Create</p>
+        </div>
+        <div class="notification-icon-container"><img class="notification-bell" src="youtube-header-nav-icons/notification-bell.svg" alt="notification bell">
+          <div class="notification-icon-container-count">6</div>
+        </div>
+        <img class="profile-image" src="subscription-channel-img/channels4_profile (1).jpg" alt="Afbas Ibas profile picture">
+      </div>
+    </div>
+    
+    
+    <div class="top-category-container">
+      <div class="top-category-nav all">All</div>
+      <div class="top-category-nav">Podcasts</div>
+      <div class="top-category-nav">Martial Arts Movies</div>
+      <div class="top-category-nav">Nollywood</div>
+      <div class="top-category-nav">Thrillers</div>
+      <div class="top-category-nav">Music</div>
+      <div class="top-category-nav">Gaming</div>
+      <div class="top-category-nav">Live</div>
+      <div class="top-category-nav">WWE Superstars</div>
+      <div class="top-category-nav">Special forces</div>
+      <div class="top-category-nav">News</div>
+      <div class="top-category-nav">Dawah</div>
+      <div class="top-category-nav">Podcasts</div>
+      <div class="top-category-nav">Media theories</div>
+      <div class="top-category-nav">Debates</div>
+      <div class="top-category-nav">Cartoons</div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-main">
+        <div class="sidebar-link home">
+          <img src="youtube-sidebar-nav-icons/home-icon.svg" alt="">
+          <p class="sidebar-text">Home</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/shorts-icon-red.svg" alt="">
+          <p class="sidebar-text">Shorts</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/subscriptions.svg" alt="">
+          <p class="sidebar-text">Subscriptions</p>
+        </div>
+      </div>
+      <div class="sidebar-you">
+        <div class="sidebar-sub-heading">
+          <p class="sidebar-sub-heading-text">You</p>
+          <img src="youtube-main-icons/arrow-right-thick.svg" alt="">
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/history-icon.svg" alt="">
+          <p class="sidebar-text">History</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/playlists.icon.svg" alt="">
+          <p class="sidebar-text">Playlists</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/your-videos-icon.svg" alt="">
+          <p class="sidebar-text">Your videos</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/watch-later-icon.svg" alt="">
+          <p class="sidebar-text">Watch later</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/liked-videos-icon.svg" alt="">
+          <p class="sidebar-text">Liked videos</p>
+        </div>
+      </div>
+      <div class="sidebar-subscriptions">
+          <p class="sidebar-sub-heading-text">Subscriptions</p>
+        <div class="sidebar-link">
+          <img src="subscription-channel-img/channels4_profile (1).jpg" alt="">
+          <p class="sidebar-text">Jordan Petterson</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="subscription-channel-img/channels4_profile (2).jpg" alt="">
+          <p class="sidebar-text">Kamaru Usman</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="subscription-channel-img/channels4_profile (3).jpg" alt="">
+          <p class="sidebar-text">Isaac Newton</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/all-subscriptions.svg" alt="">
+          <p class="sidebar-text">All Subscriptions</p>
+        </div>
+      </div>
+      <div class="sidebar-explore">
+          <p class="sidebar-sub-heading-text">Explore</p>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/trending-icon.svg" alt="">
+          <p class="sidebar-text">Trending</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/music-icon.svg" alt="">
+          <p class="sidebar-text">Music</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons//gaming-icon.svg" alt="">
+          <p class="sidebar-text">Gaming</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/news-icon.svg" alt="">
+          <p class="sidebar-text">News</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/sports-icon.svg" alt="">
+          <p class="sidebar-text">Sports</p>
+        </div>
+      </div>
+      <div class="sidebar-explore">
+          <p class="sidebar-sub-heading-text">More from YouTube</p>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/youtube-premium.svg" alt="">
+          <p class="sidebar-text">YouTube premium</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/youtube-music.svg" alt="">
+          <p class="sidebar-text">YouTube Music</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/youtube-studio.svg" alt="">
+          <p class="sidebar-text">YouTube studio</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/youtube-kids.svg" alt="">
+          <p class="sidebar-text">YouTube kids</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/report-history.svg" alt="">
+          <p class="sidebar-text">Report</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/send-feedback.svg" alt="">
+          <p class="sidebar-text">Send feedback</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/help-icon.svg" alt="">
+          <p class="sidebar-text">Help</p>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-sidebar-nav-icons/settings-icon.svg" alt="">
+          <p class="sidebar-text">Setting</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-1.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">1:15:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (1).jpg"
+              alt="Vladmiar Putin profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lorem ipsum dolor sitter amet elit in the united consectetur
+              adipisicing.
+            </p>
+            <p class="video-author">Vladmiar Putin</p>
+            <p class="video-stats">20M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-2.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">2:06:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (2).jpg"
+              alt="Vladmiar Putin"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Trade war between China and America Lorem ipsum dolor sit amet.
+            </p>
+            <p class="video-author">Donald Trump</p>
+            <p class="video-stats">12M views <b>&#183;</b> 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-3.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">1:00:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (3).jpg"
+              alt="Vladmiar Putin profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              club owner Lorem ipsum dolor sit amet elit consectetur
+              adipisicing.
+            </p>
+            <p class="video-author">Kushkatty Dimitri</p>
+            <p class="video-stats">986K views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-4.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">1:55:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (4).jpg"
+              alt="Vladmiar Putin"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Roger Penrose and Lennox talk Lorem ipsum dolor sit amet hurray.
+            </p>
+            <p class="video-author">Roger Penrose</p>
+            <p class="video-stats">15M views <b>&#183;</b> 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-5.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">45:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (5).jpg"
+              alt="Vladmiar Putin profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kanye West Lorem ipsum dolor sit amet elit consectetur
+              adipisicing.
+            </p>
+            <p class="video-author">Kanye West</p>
+            <p class="video-stats">44M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-6.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">3:01:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (6).jpg"
+              alt="Vladmiar Putin"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lorem ipsum dolor sit amet hurray india peasant crown king jaja.
+            </p>
+            <p class="video-author">Sanje Paranra</p>
+            <p class="video-stats">32M views <b>&#183;</b> 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-9.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">7:35:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (7).jpg"
+              alt="Vladmiar Putin profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lorem ipsum dolor sitter amet elit in the united consectetur
+              adipisicing.
+            </p>
+            <p class="video-author">Vladmiar Putin</p>
+            <p class="video-stats">20M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-10.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">5:05:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (8).jpg"
+              alt="Vladmiar Putin"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Trade war between China and America Lorem ipsum dolor sit amet.
+            </p>
+            <p class="video-author">Donald Trump</p>
+            <p class="video-stats">12M views <b>&#183;</b> 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-11.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">10:45:04</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (9).jpg"
+              alt="Vladmiar Putin profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              club owner Lorem ipsum dolor sit amet elit consectetur
+              adipisicing.
+            </p>
+            <p class="video-author">Kushkatty Dimitri</p>
+            <p class="video-stats">986K views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-12.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">1:25:25</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (2).jpg"
+              alt="Vladmiar Putin"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Roger Penrose and Lennox talk Lorem ipsum dolor sit amet hurray.
+            </p>
+            <p class="video-author">Roger Penrose</p>
+            <p class="video-stats">15M views <b>&#183;</b> 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-13.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">1:00:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/channels4_profile (5).jpg"
+              alt="Vladmiar Putin profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kanye West Lorem ipsum dolor sit amet elit consectetur
+              adipisicing.
+            </p>
+            <p class="video-author">Kanye West</p>
+            <p class="video-stats">44M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="youtube-thumbnails/thumbnail-1.jpg"
+            alt="youtube thumbnails images"
+          />
+          <div class="video-time">2:15:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="subscription-channel-img/ted.jpg"
+              alt="Vladmiar Putin"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lorem ipsum dolor sit amet hurray india peasant crown king jaja.
+            </p>
+            <p class="video-author">Sanje Paranra</p>
+            <p class="video-stats">32M views <b>&#183;</b> 6 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
